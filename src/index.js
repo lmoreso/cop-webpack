@@ -6,9 +6,13 @@ import makeImage from './makeImage';
 
 const button = makeButton('Click me please!');
 button.style.cssText = makeColorStyle("green");
+button.addEventListener('click', () => {
+    document.body.appendChild(footer); 
+});
 
 const image = makeImage(imageUrl, 200, 200);
 
 document.body.appendChild(button);
 document.body.appendChild(image);
-document.body.appendChild(footer);
+
+//document.body.appendChild(footer);
