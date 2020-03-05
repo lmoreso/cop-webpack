@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server -d -w",
+    "dev": "webpack -d",
+    "pro": "webpack -p"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
